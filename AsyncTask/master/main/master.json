@@ -1,0 +1,25 @@
+{
+  "API接口服务端口": "task service",
+  "apiPort": 8070,
+
+  "API接口读超时": "millsecond",
+  "apiReadTimeout": 5000,
+
+  "API接口写超时": "millsecond",
+  "apiWriteTimeout": 5000,
+
+  "etcd的集群列表": "cluster",
+  "etcdEndpoints": ["127.0.0.1:2379"],
+
+  "etcd的连接超时": "millsecond",
+  "etcdDialTimeout": 5000,
+
+  "web页面根目录": "static page",
+  "webroot": "./webroot",
+
+  "mongodb地址": "mongodb URI",
+  "mongodbUri": "mongodb://36.111.184.221:27017",
+
+  "mongodb连接超时时间": "millsecond",
+  "mongodbConnectTimeout": 5000
+}
